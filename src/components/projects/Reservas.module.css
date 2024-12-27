@@ -1,0 +1,92 @@
+.section {
+  padding: 20px;
+  background-color: #080808;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.card {
+  background-color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Estilo para o link do GitHub */
+.githubLink {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+  max-width: 160px;
+}
+
+.githubLink:hover {
+  text-decoration: underline;
+}
+
+.linkDisabled {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #4e6379;
+  text-decoration: none;
+  font-weight: bold;
+  max-width: 160px;
+}
+
+.linkDisabled:hover {
+  cursor:not-allowed;
+}
+
+.gitHubIcon{
+  color: grey;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  max-width: 700px;
+}
+
+.skillItem {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  text-align: center;
+  color: #9c9c9c;
+  font-size: .8rem;
+  background-color: #222429;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.skillItem svg {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: #2a8d57; /* Ajuste a cor conforme necessário */
+}
+
