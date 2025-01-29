@@ -82,3 +82,24 @@
   font-size: 2.5rem;
   color: #2a8a8d; /* Ajuste a cor conforme necessário */
 }
+
+
+@media (max-width: 600px) {
+  
+  .skillsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 700px;
+  }
+
+  .skillItem {
+    font-size: 1rem;
+    
+  }
+
+  .skillItem svg {
+    font-size: 1em;
+  }
+  
+}

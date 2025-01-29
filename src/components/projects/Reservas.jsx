@@ -8,7 +8,7 @@ function Reservas() {
     <section id="reservas" className={styles.section}>
       {/* Card de projeto */}
       <div className={styles.card}>
-        <h3 className={styles.title}>IFC Sombrio Room Reservations</h3>
+        <h3 className={styles.title}>IFC Sombrio room scheduling system</h3>
         <p className={styles.description}>
         This project aims to create a room reservation system for the Instituto Federal Catarinense (IFC) in Sombrio. 
         The system allows users to log in, reserve available rooms and administrators to manage the rooms through a dedicated interface.

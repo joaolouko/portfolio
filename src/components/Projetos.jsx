@@ -2,6 +2,7 @@ import React from 'react';
 import Reservas from './projects/Reservas'; // Importe o componente Reservas
 import styles from './Projetos.module.css';
 import Portfolio from './projects/Portfolio';
+import BillsToPay from './projects/BillsToPay';
 
 function Projetos() {
   return (
@@ -15,6 +16,10 @@ function Projetos() {
           </div>
           <div className="col-12 col-md-6 mb-4">
             <Portfolio />
+          </div>
+
+          <div className="col-12 col-md-6 mb-4">
+            <BillsToPay/> 
           </div>
 
           
